@@ -5,33 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <div class="flex bg-blue-600 w-full h-fit justify-between px-8">
-      <h3 class="">Get 5% off your first order. Promo: ORDER5</h3>
-      <h3 class="">Regent street,A4,A4201,,London change Location</h3>
-      <img src="logo" alt="logo" /> 23 items
-    </div></head
-  ><br />
-  <body class="bg-amber-50">
-    <div class="flex justify-between px-8 h-full w-full">
-      <p class="text-4xl font-bold sm:text-5xl md:text-6xl">Order</p>
-
-      <button class="bg-yellow-400 rounded-full h-9 w-32">
-        <h1>Home</h1>
-      </button>
-      <li class="">Browse Menu</li>
-      <li class="">Special Offers</li>
-      <li class="">Resturants</li>
-      <li class="">Track Order</li>
-      <button class="bg-black rounded-full h-9 w-40 text-white">
-        <h1>Login/Signup</h1>
-      </button>
+    <div class="grid grid-cols-3 px-8">
+      <h3>
+        Get 5% Off your first Order.<span class="text-orange-500"
+          >Promo,ORDER5</span
+        >
+      </h3>
+      <h3>
+        Regent street,A4,A4201,London<span class="text-orange-500"
+          >Change Location</span
+        >
+      </h3>
+      <div class="bg-green-600 flex">
+        <h3>23 items</h3>
+        &nbsp;
+        <img src="logo" alt="logo" />
+      </div>
     </div>
     <br />
-
+  </head>
+  <body class="bg-white text-gray-900">
+    <head class="bg-white">
+      <div
+        class="max-w-7xl mx-auto flex items-center justify-between px-4 py-3"
+      >
+        <div class="text-2xl font-bold">
+          Order<span class="text-orange-500">.uk</span>
+        </div>
+        <nav class="space-x-12 hidden sm:block">
+          <button class="bg-orange-500 py-2 px-8 rounded-full">Home</button>
+          <a href="#" class="text-gray-700">Browse Menu</a
+          ><a href="#" class="text-gray-700">Special offer</a
+          ><a href="#" class="text-gray-700">Resturants</a
+          ><a href="#" class="text-gray-700">Track order</a>
+        </nav>
+        <div>
+          <button class="bg-black text-white px-8 py-2 rounded-full">
+            Login/Signup
+          </button>
+        </div>
+      </div>
+    </head>
+    <br />
     <img
-      class="px-8 min-h-fit w-full"
+      class="w-full h-[40] px-8 sm:h-[600px]"
       src="istockphoto-1314356933-612x612.jpg"
-      alt="background"
+      alt="banner"
     />
+    <section class="py-0.5">
+      <div class="max-w-7xl mx-auto px-4">
+        <h2 class="text-2xl font-bold mb-4">
+          Up to -40% Order.uk exclusive deals
+        </h2>
+        <div class="grid md:grid-cols-3 gap-6">
+          <img
+            class="rounded-lg"
+            src="istockphoto-1314356933-612x612.jpg"
+            alt=""
+          />
+          <img class="rounded-lg" src="salad.jpg" alt="hamburger" />
+          <img class="rounded-lg" src="saladd.jpg" alt="salad" />
+        </div>
+      </div>
+    </section>
   </body>
 </html>
